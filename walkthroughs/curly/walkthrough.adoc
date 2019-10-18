@@ -1,7 +1,5 @@
 [[getting-started-basic-walkthrough]]
 = Basic Walkthrough
-:toc: macro
-:toc-title:
 :data-uri:
 :prewrap!:
 :description: This is the getting started experience for Developers, focusing on web console usage.
