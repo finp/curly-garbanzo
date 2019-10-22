@@ -1,0 +1,34 @@
+= Creating Solution Patterns without writing text
+
+image::slide-imgs/solx.png[]
+
+== Thank You!
+
+Thank you all for the work on Solution Explorer:
+
+[%step]
+* Short cut to the user
+* Reduce friction
+* Walkthroughs
+
+=== Imagine
+
+[%step]
+* They express how we want a cluster to work (collect user stories tues/wed)
+* SOPs are walkthroughs on a QE cluster (get an example SOP)
+* They're easy
+
+=== Existing writers
+
+* link:https://github.com/RedHatWorkshops/dayinthelife-integration[Day in the life] workshops
+* You ?
+
+
+== Find a Solution Pattern
+
+Instead of writing, you can find existing files that suit your purpose.
+
+=== Find a user story on customer portal
+
+
+
