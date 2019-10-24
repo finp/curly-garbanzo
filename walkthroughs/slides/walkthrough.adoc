@@ -103,8 +103,15 @@ There's a CCS initiative to make docs modular, meaning that in the future you'll
 . Create an assembly, eg:
 +
 ----
-
+include::<file>[]
 ----
+
+. Create the walkthrough.adoc
++
+----
+./bin/assemble.sh walkthroughs/modules/assemby.adoc walkthroughs/modules/walkthrough.adoc
+----
+
 
 
 == References
