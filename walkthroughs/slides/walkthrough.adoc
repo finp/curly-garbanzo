@@ -9,35 +9,19 @@ ifdef::openshift-host[]
 [type=walkthroughResource,serviceName=openshift]
 .Red Hat OpenShift
 ****
-* link:{openshift-host}/console[Console, window="_blank"]
-* link:https://help.openshift.com/[Openshift Online Help Center, window="_blank"]
-* link:https://blog.openshift.com/[Openshift Blog, window="_blank"]
+* link:https://access.redhat.com/documentation/en-us/red_hat_managed_integration/1/html/getting_started/index#gs-publishing-walkthroughs-proc[Adding Solution Patterns, window="_blank"]
+* link:https://access.redhat.com/documentation/en-us/red_hat_managed_integration/1/html/getting_started/index#gs-writing-walkthroughs-proc[Writing Solution Patterns, window="_blank"]
 ****
-
-[type=walkthroughResource,serviceName=fuse]
-.Fuse Online
-****
-* link:{fuse-url}[Console, window="_blank", id="resources-fuse-url"]
-* link:{fuse-documentation-url}[Fuse Documentation, window="_blank"]
-****
-
-[type=walkthroughResource,serviceName=amq-online-standard]
-.AMQ Online
-****
-* link:{enmasse-url}[Console, window="_blank", , id="resources-enmasse-url"]
-* link:{amq-documentation-url}[AMQ Documentation, window="_blank"]
-****
-
 endif::openshift-host[]
 
 == Thank You!
+https://github.com/pwright/curly-garbanzo
 
 Thank you all for the work on Solution Explorer:
 
-[%step]
+
 * Short cut to the user
 * Reduce friction
-* Walkthroughs
 
 === Imagine
 
@@ -58,18 +42,28 @@ Instead of writing, you can find existing files that suit your purpose.
 
 === Find a user story on customer portal
 
-
-
+. Find an AsciiDoc file:
 * link:https://access.redhat.com/documentation/en-us/red_hat_fuse/7.4/[Fuse] online -> link:https://github.com/syndesisio/syndesis/tree/master/doc[Upstream docs]
 * link:https://access.redhat.com/documentation/en-us/red_hat_amq/7.4/[AMQ] online -> link:https://github.com/EnMasseProject/enmasse/tree/master/documentation[Upstream docs]
 * 3scale -> internal only
 * link:https://access.redhat.com/documentation/en-us/openshift_dedicated/3/[OSD] -> link:https://github.com/openshift/openshift-docs/tree/dedicated[Upstream docs]
 
+. Copy the source file. 
 
 === Create a repo from the template
 
+. Navigate to https://github.com/pwright/curly-garbanzo
+. Click *Use Template*.
 
-https://github.com/integr8ly/walkthrough-template
+=== Add your file to the repo
+
+. Edit the `/walkthroughs/empty/walkthrough.adoc` file to add your content from step one.
+. Rename the directory from `empty` to reflect purpose of your Solution Pattern.
+. Commit and push your changes.
+
+=== Add the repo to your cluster
+
+image::slide-imgs/add.png[]
 
 
 = References
