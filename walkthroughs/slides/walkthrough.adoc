@@ -50,6 +50,8 @@ Instead of writing, you can find existing files that suit your purpose.
 
 . Copy the source file. 
 
+For example: link:https://raw.githubusercontent.com/openshift/openshift-docs/dedicated-3.2/getting_started/basic_walkthrough.adoc[Basic Walkthrough for OSD]
+
 === Create a repo from the template
 
 . Navigate to https://github.com/pwright/curly-garbanzo
@@ -65,7 +67,46 @@ Instead of writing, you can find existing files that suit your purpose.
 
 image::slide-imgs/add.png[]
 
+== Dual purposing Solution Patterns
 
-= References
+This presentation is a Solution Pattern
+
+See repo and the link:https://asciidoctor.org/docs/asciidoctor-revealjs/#node-javascript-setup[node setup docs].
+
+== Make your Solution Pattern sing
+
+Edit the file to add some generic content:
+
+* menu on right
+* verifications
+
+[type=verification]
+====
+Did it work?
+====
+
+[type=verificationFail]
+Try the steps again. If it's still not working contact your administrator.
+
+== Is the future here yet?
+
+There's a CCS initiative to make docs modular, meaning that in the future you'll need to assembly your Solution Pattern
+
+* Pro: you can assembly cross product Solution Patterns
+* Con: you must assembly a Solution Pattern, you won't find ready-made Solution Patterns in docs
+
+=== Find an assembly you want
+
+. Browse the available modules, eg https://github.com/openshift/openshift-docs/tree/master/modules
+. Grab the files you want
+. Put them into a directory
+. Create an assembly, eg:
++
+----
+
+----
+
+
+== References
 
 * Writing clarifies thinking - https://hbr.org/2016/09/bad-writing-is-destroying-your-companys-productivity
